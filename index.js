@@ -5,7 +5,7 @@ import { PORT } from "./const.js";
 
 const app = express();
 
-cron.schedule("0 * * * *", async () => {
+cron.schedule("0 2 * * *", async () => {
   await GeneralSave();
 });
 

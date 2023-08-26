@@ -6,10 +6,10 @@ import {
   getDocs,
   doc,
 } from "firebase/firestore";
-import { APIKEY, APPID, MEASUREMENTID } from "../const.js";
+import { API_KEY_FIREBASE, APPID, MEASUREMENTID } from "../const.js";
 
 const firebaseConfig = {
-  apiKey: APIKEY,
+  apiKey: API_KEY_FIREBASE,
   appId: APPID,
   measurementId: MEASUREMENTID,
   authDomain: "sdn-company.firebaseapp.com",
